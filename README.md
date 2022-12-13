@@ -7,13 +7,16 @@ Working on IOS/Android/Ipad
 ### Installation
 
 ```
-npm install --save rn-show-more-text
-
-or
-
-yarn add rn-show-more-text
+npm install --save @leviit9x/rn-show-more-text
 
 ```
+or
+
+```
+yarn add @leviit9x/rn-show-more-text
+
+```
+
 
 ### Usage
 
