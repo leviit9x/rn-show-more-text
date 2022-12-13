@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/leviit9x/-react-native-show-more-text/issues"
   },
-  "homepage": "https://github.com/leviit9x/-react-native-show-more-text#readme"
+  "homepage": "https://github.com/leviit9x/-react-native-show-more-text#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
