@@ -1,0 +1,22 @@
+{
+  "name": "rn-show-more-text",
+  "version": "1.0.0",
+  "description": "Support to display more text or less text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React Native",
+    "Text"
+  ],
+  "author": "leviit9x",
+  "license": "ISC",
+  "dependencies": {
+    "react-native": "0.69.5"
+  },
+  "devDependencies": {
+    "@types/react-native": "0.69.5",
+    "typescript": "^4.9.4"
+  }
+}
