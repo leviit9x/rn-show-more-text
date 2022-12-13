@@ -50,7 +50,7 @@ export function RNShowMoreText({
       numberOfLines={undefined}
       onTextLayout={(event) => {
         const { lines } = event.nativeEvent;
-        if (lines.length > 2 && isFirstRender) {
+        if (lines.length > numberOfLines && isFirstRender) {
           let _t = text;
           _t = lines
             .slice(0, numberOfLines)
