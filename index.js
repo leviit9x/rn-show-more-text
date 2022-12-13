@@ -23,7 +23,12 @@ export function RNShowMoreText({
 
   function NodeText({ lessText, press, isLess }) {
     return (
-      <Text style={textStyle}>
+      <Text
+        style={[
+          { opacity: isFirstRender ? 1 : 0 },
+          StyleSheet.flatten(textStyle),
+        ]}
+      >
         {lessText}
         <TouchableOpacity
           onPress={press}
@@ -41,10 +46,7 @@ export function RNShowMoreText({
 
   return (
     <Text
-      style={[
-        { opacity: isFirstRender ? 1 : 0 },
-        StyleSheet.flatten(textStyle),
-      ]}
+      style={textStyle}
       numberOfLines={undefined}
       onTextLayout={(event) => {
         const { lines } = event.nativeEvent;
