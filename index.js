@@ -41,7 +41,10 @@ export function RNShowMoreText({
 
   return (
     <Text
-      style={textStyle}
+      style={[
+        { opacity: isFirstRender ? 1 : 0 },
+        StyleSheet.flatten(textStyle),
+      ]}
       numberOfLines={undefined}
       onTextLayout={(event) => {
         const { lines } = event.nativeEvent;

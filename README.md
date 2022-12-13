@@ -25,7 +25,7 @@ yarn add @leviit9x/rn-show-more-text
 
 
 ```javascript
-  import { RNShowMoreText } from 'rn-show-more-text';
+  import { RNShowMoreText } from '@leviit9x/rn-show-more-text';
   
   
   export default function Example() {
