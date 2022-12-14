@@ -21,7 +21,7 @@ yarn add @leviit9x/rn-show-more-text
 ### Usage
 
 - **numberOfLines**(number)(*required): Number of lines to be displayed.
-- **text**(object): full text.
+- **text**(string): full text.
 
 
 ```javascript
